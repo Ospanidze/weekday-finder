@@ -51,16 +51,16 @@ class MainViewController: UIViewController {
             actionButton.heightAnchor.constraint(equalToConstant: 50),
         ])
         
-        resultLabel.text = "Here you will see the day of the week"
-        resultLabel.textAlignment = .center
-        resultLabel.numberOfLines = 0
-        resultLabel.font = UIFont.init(name: "Snell Roundhand", size: 25)
-        
-        mainLabel.text = "Weekdly Finder"
+        mainLabel.text = "Weekday Finder"
         mainLabel.numberOfLines = 0
         mainLabel.textAlignment = .center
         mainLabel.font = UIFont.italicSystemFont(ofSize: 25)
         mainLabel.font = UIFont.init(name: "Noteworthy", size: 32)
+        
+        resultLabel.text = "Here you will see the day of the week"
+        resultLabel.textAlignment = .center
+        resultLabel.numberOfLines = 0
+        resultLabel.font = UIFont.init(name: "Snell Roundhand", size: 25)
         
         actionButton.translatesAutoresizingMaskIntoConstraints = false
         actionButton.backgroundColor = .black
